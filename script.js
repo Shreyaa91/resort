@@ -1,4 +1,7 @@
 // Simple form handling with basic validation and message display
+if (window.location.pathname === '/admin') {
+  window.location.href = '/admin.html';
+}
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const name = document.getElementById('name').value;

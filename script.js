@@ -1,5 +1,5 @@
 // Simple form handling with basic validation and message display
-if (window.location.pathname === '/#cctv') {
+if (window.location.pathname === '#cctv') {
   window.location.href = '/admin.html';
 }
 document.getElementById('contact-form').addEventListener('submit', function(event) {

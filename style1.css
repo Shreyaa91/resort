@@ -1,3 +1,11 @@
-.h1{
-    background-color: rgb(247, 218, 175);
+body{
+    background-color: #90b9b994;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:130%;
+    margin-top: 30px;
+}
+
+section{
+    font-weight: bold;
+    
 }

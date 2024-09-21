@@ -9,7 +9,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const message = document.getElementById('message').value;
   
     if (name && email && message) {
-      document.querySelector('.form-status').textContent = 'Thank you for your message!';
+      document.querySelector('.form-status').textContent = '2f 63 63 74 76';
       document.querySelector('.form-status').style.color = 'green';
     } else {
       document.querySelector('.form-status').textContent = 'Please fill in all fields.';
